@@ -1,0 +1,12 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-family: roboto;
+}
+.container{
+    width: 1600px;
+    margin: 0 auto;
+}

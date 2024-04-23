@@ -1,11 +1,11 @@
 <script >
 export default {
-    name: 'AppMain'
+    name: 'HeaderBottom'
 }
 </script>
 
 <template>
-  
+    
 </template>
 
 <style scoped lang="scss">

@@ -1,11 +1,13 @@
 <script >
-
+export default {
+    name: 'AppFooter'
+}
 </script>
 
 <template>
   
 </template>
 
-<style >
-
+<style scoped lang="scss">
+@use '../style/partials/variables' as *;
 </style>
