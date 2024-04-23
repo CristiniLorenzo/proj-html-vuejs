@@ -96,7 +96,7 @@ section{
             color: $brand-white;
             padding: 15px;
             font-size: 14px;
-            //TO CHANGE
+            //TO CHANGE HOVER
             border-top-right-radius: 20px;
             border-end-start-radius: 20px;
             //

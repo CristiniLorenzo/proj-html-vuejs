@@ -1,11 +1,16 @@
 <script >
+import Slider from './Slider.vue';
+
 export default {
-    name: 'AppMain'
+    name: 'AppMain',
+    components: {
+        Slider
+    },
 }
 </script>
 
 <template>
-  
+  <Slider></Slider>
 </template>
 
 <style scoped lang="scss">
