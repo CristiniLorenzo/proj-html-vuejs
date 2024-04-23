@@ -18,11 +18,11 @@ export default {
                </div> 
             </div>
             <div class="right d-flex">
-                <div>
+                <div class="hour">
                     <i class="fa-regular fa-clock"></i>
                     <span>8.30AM-8.30PM</span>
                </div> 
-               <div>
+               <div class="socials">
                     <i class="fa-brands fa-facebook-f"></i>
                     <i class="fa-brands fa-twitter"></i>
                     <i class="fa-brands fa-instagram"></i>
@@ -39,25 +39,37 @@ export default {
 
 section{
     background-color: $brand-green;
-    padding: 18px;
+    padding: 18px 0;
     color: $brand-white;
     font-size: 14px;
-        .left{
-            div{
-                padding: 0 15px;
-            }
-            i{
-                padding-right: 5px;
-            }
-        } 
-        .right{
-            div{
-                padding: 0 15px;
+        .container{
+            padding: 0;
+                .left{
+                div{
+                    padding-right: 15px;
+                }
                 i{
-                    padding: 0 10px;
+                    padding-right: 5px;
+                }
+            } 
+            .right{
+                div{
+                    padding-left: 15px;
+                }
+                i{
+                    padding-right: 10px;
+                }
+                .hour{
+                    padding-right: 15px;
+                }
+                .socials{
+                    .fa-pinterest-p{
+                        padding: 0;
+                    }
                 }
             }
         }
+        
 
 }
 
