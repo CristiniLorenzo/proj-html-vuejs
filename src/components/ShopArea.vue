@@ -1,6 +1,11 @@
 <script>
+import Card from './Card.vue';
+
 export default {
     name: 'ShopArea',
+    components: {
+        Card
+    }
 }
 </script>
 
@@ -32,8 +37,12 @@ export default {
                     </ul>
                 </div>
 
-                <div class="cards-area">
-                    
+                <div class="cards-area d-flex flex-wrap">
+                    <Card></Card>
+                </div>
+
+                <div>
+                    <button>ALL PRODUCTS</button>
                 </div>
             </div>
             
@@ -60,6 +69,15 @@ export default {
             li{
                 padding: 25px;
             }
+        }
+        button{
+            border: none;
+            background-color: $brand-yellow;
+            padding: 15px 35px;
+            color: $brand-white;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+
         }
     }
     .text-orange{

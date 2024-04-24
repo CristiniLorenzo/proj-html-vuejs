@@ -2,6 +2,8 @@
 import Slider from './Slider.vue';
 import Consumer from './Consumer.vue';
 import ShopArea from './ShopArea.vue';
+import Paragraph from './Paragraph.vue';
+
 
 
 export default {
@@ -9,7 +11,8 @@ export default {
     components: {
         Slider,
         Consumer,
-        ShopArea
+        ShopArea,
+        Paragraph
     },
 }
 </script>
@@ -18,6 +21,7 @@ export default {
   <Slider></Slider>
   <Consumer></Consumer>
   <ShopArea></ShopArea>
+  <Paragraph></Paragraph>
 </template>
 
 <style scoped lang="scss">
