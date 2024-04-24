@@ -10,17 +10,42 @@ export default {
             <div class="left">
                 <img src="../assets/assets/logo.png" alt="">
             </div>
+
             <div class="mid d-flex align-items-center">
-                <ul class="d-flex">
-                    <li>home <i class="fa-solid fa-chevron-down"></i></li>
-                    <li>home <i class="fa-solid fa-chevron-down"></i></li>
-                    <li>home</li>
-                    <li>home <i class="fa-solid fa-chevron-down"></i></li>
-                    <li>home <i class="fa-solid fa-chevron-down"></i></li>
-                    <li>home <i class="fa-solid fa-chevron-down"></i></li>
-                    <li>home </li>
-                </ul>
+                <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown">
+                                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Home
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <button class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Dropdown
+                                </button>
+                                <ul class="dropdown-menu dropdown-menu-dark">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                </nav>
             </div>
+
             <div class="right d-flex align-items-center position-absolute end-0">
                 <button class="search">
                     <i class="fa-solid fa-magnifying-glass"></i> 
