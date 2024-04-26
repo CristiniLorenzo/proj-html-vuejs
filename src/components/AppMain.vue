@@ -6,10 +6,7 @@ import Paragraph from './Paragraph.vue';
 import Infos from './Infos.vue';
 import Trending from './Trending.vue';
 import BestFood from './BestFood.vue';
-
-
-
-
+import LatestNews from './LatestNews.vue';
 
 export default {
     name: 'AppMain',
@@ -20,7 +17,8 @@ export default {
         Paragraph,
         Infos,
         Trending,
-        BestFood
+        BestFood,
+        LatestNews
     },
 }
 </script>
@@ -33,6 +31,7 @@ export default {
   <Infos></Infos>
   <Trending></Trending>
   <BestFood></BestFood>
+  <LatestNews></LatestNews>
 </template>
 
 <style scoped lang="scss">
