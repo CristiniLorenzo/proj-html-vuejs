@@ -23,6 +23,27 @@ export default {
                         <div>$18</div>
                     </div>
                 </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="/src/assets/assets/s2.jpg" alt="">
+                        <h3>Fresh Apple</h3>
+                        <div>$18</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="/src/assets/assets/s8.jpg" alt="">
+                        <h3>Fresh Apple</h3>
+                        <div>$18</div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card">
+                        <img src="/src/assets/assets/s1.jpg" alt="">
+                        <h3>Fresh Apple</h3>
+                        <div>$18</div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -56,6 +77,8 @@ export default {
     .card{
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
         padding-bottom: 20px;
+        width: 90%;
+        margin: 30px 0;
     }
     
 }

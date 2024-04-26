@@ -5,6 +5,8 @@ import ShopArea from './ShopArea.vue';
 import Paragraph from './Paragraph.vue';
 import Infos from './Infos.vue';
 import Trending from './Trending.vue';
+import BestFood from './BestFood.vue';
+
 
 
 
@@ -17,7 +19,8 @@ export default {
         ShopArea,
         Paragraph,
         Infos,
-        Trending
+        Trending,
+        BestFood
     },
 }
 </script>
@@ -29,6 +32,7 @@ export default {
   <Paragraph></Paragraph>
   <Infos></Infos>
   <Trending></Trending>
+  <BestFood></BestFood>
 </template>
 
 <style scoped lang="scss">
