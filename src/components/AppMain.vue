@@ -7,6 +7,8 @@ import Infos from './Infos.vue';
 import Trending from './Trending.vue';
 import BestFood from './BestFood.vue';
 import LatestNews from './LatestNews.vue';
+import Logos from './Logos.vue';
+
 
 export default {
     name: 'AppMain',
@@ -18,7 +20,8 @@ export default {
         Infos,
         Trending,
         BestFood,
-        LatestNews
+        LatestNews,
+        Logos
     },
 }
 </script>
@@ -32,6 +35,7 @@ export default {
   <Trending></Trending>
   <BestFood></BestFood>
   <LatestNews></LatestNews>
+  <Logos></Logos>
 </template>
 
 <style scoped lang="scss">
