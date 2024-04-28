@@ -9,19 +9,19 @@ export default {
     AppHeader,
     AppMain,
     AppFooter
-  }
+  },
 }
 </script>
 
 <template>
   <header>
-  <AppHeader></AppHeader>
+    <AppHeader></AppHeader>
   </header>
   <main>
-      <AppMain></AppMain>
+    <AppMain></AppMain>
   </main>
   <footer>
-      <AppFooter></AppFooter>
+    <AppFooter></AppFooter>
   </footer>
 </template>
 
